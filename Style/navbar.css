@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 6;
+    font-family: 'poppins',sans-serif;
+    background-color: teal;
+    }
+    header .logo{
+      color: white;
+      font-size: 2em;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    header a:hover{
+      color: white;
+    }
+    .autho:hover{
+        color: white;
+        border: 3px solid black;
+        padding:10px;
+      background: black;
+      border-radius: 10px;
+      transition: all 200ms ease-in-out  ;
+        
+      }
+       
+    .autho{
+        position: relative;
+        /* top: 2px;
+        left: 69px; */
+        font-size: 14px;
+        color: rgb(39, 39, 39);
+        /* font-weight: 700; */
+        text-decoration: none;
+        /* text-transform: uppercase; */
+        letter-spacing: 2px;
+        border: none;
+        background: white;
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+
+      
+      @media (max-width: 600px){
+        header{
+          flex-direction: column;
+         justify-content: space-evenly;
+        }
+        header .logo{
+          margin: 3px;
+        }
+      }     

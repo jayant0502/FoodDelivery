@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.navigation {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 3;
+    height: fit-content;
+    width: 5%;
+}
+
+.navigation1 {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 3;
+    height: fit-content;
+    width: 5%;
+}
+
+
+
+.navigation a {
+    width: 100%;
+    pointer-events: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    margin-bottom: 150px;
+    z-index: 2;
+}
+
+.logo img {
+    height: 53px;
+}
+.slider {
+    overflow: hidden;
+}
+#home {
+    width: 100%;
+    height: 100vh;
+    background: url("../Asset/image.jpg") center center/cover;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+}
+
+@media (max-width: 1130px){
+    #home{
+        background-position: cover;
+    }
+    #serhead h1{
+        font-size: 4.055rem;
+    }
+    .srv_container{
+        flex-direction: column;
+    }
+    #services div{
+        text-align: center;
+        width: 100%;
+    }
+}
+.demo {
+    text-align: center;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    margin: 0% auto 0;
+    font-family: "Trispace", sans-serif;
+    z-index: 1000;
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+   width: 500px;
+    height: 400px;
+    justify-content: center;
+}
+
+.illustration img {
+    width: 95%;
+}
+.demo h1 {
+    margin-top: 70px;
+    font-size: 61px;
+    text-transform: uppercase;
+}
+.navdot {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    justify-content: center;
+    font-size: x-large;
+    font-family: "Fredoka One", cursive;
+}
+.main h1 {
+    text-align: center;
+    animation: chngop 5s ease-in-out;
+    font-family: "Trispace", sans-serif;
+    color: black;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+.main .h3 {
+    text-align: center;
+    margin-bottom: 21px;
+    animation: chngop 5s ease-in-out;
+    font-family: "Trispace", sans-serif;
+}
+.main img {
+    text-align: center;
+    height: 300px;
+}
+.btn {
+    animation: chngop 3s ease-in-out;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px 25px;
+    margin-top: 34px;
+    border: 2px solid black;
+    transition: color 2s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 26px;
+    z-index: 5;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+@keyframes chngop {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+.himg {
+    opacity: 1;
+    animation-name: chngop;
+    animation-duration: 2.5s;
+}
+.card {
+    width: 20%;
+    cursor: default;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+}
+.font-box:hover {
+    transform: translateY(-20px);
+    transition: all 1s ease-in-out;
+}
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.font-box {
+    font-size: 20px;
+    padding: 88px 12px;
+    width: 25%;
+    font-family: "Trispace", sans-serif;
+}
+.font-box i {
+    color: tomato;
+    font-weight: bold;
+}
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+#services {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#59baff, #59baff 60%, #fff 50%, #fff 100%);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-flow: column;
+        
+}
+
+
+#serhead {
+    color: white;
+    font-family: "montserrat";
+    font-size: 5vw;
+    text-transform: uppercase;
+    margin: 150px auto;
+}
+.s_title{
+    width: 100vw;
+    text-align: center;
+}
+
+.srv_container{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.srv_container .box{
+    position: relative;
+    width: 320px;
+    background: #fff;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.srv_container .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #59baff;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transfrom 0.5s;
+}
+
+.srv_container .box:hover:before{
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: all 0.5s;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.srv_container .box h2{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.srv_container .box:hover h2{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-40px);
+}
+
+.srv_container .box h3{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+.srv_container .box p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+    font-size: 1.2em;
+   
+}
+.p1{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.srv_container .box:hover h3 ,
+.srv_container .box:hover p{
+    color: #fff;
+}
+
+footer {
+    background: #133147;
+   height: 400px;
+   display: flex;
+    flex-flow: column;
+ }
+
+ footer div{
+    color: white;  
+    flex-flow: row;
+    text-align: center;
+    flex: 1;
+    height: 100%;
+ }
+
+ footer div span {
+    position: relative;
+    top: 50%;
+    font-size: 1.5rem;
+    
+ }
+
+ footer div span p{
+     padding: 5px;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@500&display=swap');
+
+ .grp_by{
+     background: #1a2c39;
+        max-height: 25%;
+        font-family: 'Raleway', sans-serif;
+ }

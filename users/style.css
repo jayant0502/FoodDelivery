@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background: #f8f8ff;
+}
+.input-groups{
+    display: block;
+}
+
+ .header {
+    width: 30%;
+    text-align: center;
+    margin: 100px auto 0;
+    background: #5f9ea0;
+    color: white;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+form {
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    border-radius: 0px 0px 10px 10px;
+}

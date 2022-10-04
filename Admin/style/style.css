@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.adm-wrap{
+    width: 700px;
+    margin: 150px auto;
+    padding: 20px;
+    
+    /* background-color: lightgray; */
+}
+
+.alert{
+    width: 90%;
+    margin-top: 10px;
+}
+.alrt-p{
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* <br> <label for="lunch">Lunch</label> <input type="checkbox" name="lunch" id=""> <br> <label for="lunch">Dinner</label> <input type="checkbox" name="lunch" id=""> */
+
+.lunchinput{
+    display: flex;
+    justify-content: space-around;
+}
+.lunchinput input{
+    margin: 5px;
+    padding: 20px;
+}
+
+.menu_input{
+    border: 1px solid black;
+    min-width: 100%;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.menu_input div div{
+    width: 90%;
+}
+.container-wrap{
+    width: 80%;
+    margin: 150px auto;
+}
+
+.menu_input div{
+    width: 50%;
+   
+}
+.d-flex{
+    justify-content: space-evenly;
+}
+button{
+   margin: 5px auto;
+}
+
+.container2 input{
+    width: 90%;
+    margin-top: 15px;
+}
+
+.customer_table{
+    margin: 150px auto;
+    box-sizing: border-box;
+    min-width: 50%;
+    max-width: 60%;
+   
+}
+
+.failed_list{
+   margin: 400px auto;
+   box-sizing: border-box;
+    min-width: 50%;
+    max-width: 60%;
+    text-align: center;
+    
+}
+.failed_list h1{
+    border-radius: 50px;
+background: #2abeeb;
+padding: 30px;
+box-shadow:  20px 20px 60px #416af1,
+             -20px -20px 60px #676dc3;
+}
+
+@media (max-width: 1130px){
+.menu_input{
+    flex-direction: column;
+    width: 90%;
+}
+.menu_input div{
+    width: 100%;
+   
+}
+.container2 input{
+    width: 90%;
+    margin:15px auto;
+}
+button{
+    width: 100%;
+    margin: 10px auto;
+ }
+ .d-flex{
+   
+     flex-flow: column;
+ }
+ .d-flex div {
+    margin: 10px auto;
+ }
+
+ 
+
+}

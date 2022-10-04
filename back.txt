@@ -1,0 +1,162 @@
+<div>
+                    <h5 class="alert alert-primary">Tuesday</h5>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Lunch</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Dinner</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                </div>
+                <div>
+                    <h5 class="alert alert-primary">Wednesday</h5>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Lunch</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Dinner</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                </div>
+                <div>
+                    <h5 class="alert alert-primary">Thursday</h5>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Lunch</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Dinner</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                </div>
+                <div>
+                    <h5 class="alert alert-primary">Friday</h5>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Lunch</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Dinner</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                </div>
+                <div>
+                    <h5 class="alert alert-primary">Saturday</h5>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Lunch</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Dinner</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                </div>
+                <div>
+                    <h5 class="alert alert-primary">Sunday</h5>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Lunch</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                    <input type="checkbox" name="lunch" id="">
+                    <label for="lunch" class="form-check-label">
+                        <h4>Dinner</h4>
+                    </label>
+                    <div class="lunchinput form-check">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                        <input type="text" class="form-control" placeholder="Item 1">
+                    </div>
+                </div>

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    background: #d9ebff;
+    max-height: 90vh;
+    max-width: 100vw;
+}
+.menu-container{
+    position: relative;
+    top: 94px;
+    width: 100%;
+    height: 99vh;
+    /* color: white; */
+    /* background-color: rgb(241, 226, 226); 
+     border: 1px solid pink;  */
+    padding: 40px;
+    background: #d9ebff;
+/* background: linear-gradient(166deg, rgba(241,226,226,1) 46%, rgba(250,178,6,0.7539390756302521) 77%); */
+      
+}
+
+.menu-container h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+}
+ .details{
+     display: flex;
+     justify-content: space-around;
+     padding: 40px;
+     margin: 5px;
+
+ }
+
+.mess-service{
+    display: inline-block;
+    padding: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3vw;
+    border-radius: 50px;
+    background: #a3d3db;
+    box-shadow:  20px 20px 60px #8bb3ba,
+                 -20px -20px 60px #bbf3fc;
+    
+}
+
+
+.schedule{
+    padding: 40px;
+    /* font-family: 'Roboto Slab', serif;
+     */font-family: 'Quicksand', sans-serif;
+    font-size: 1.3vw;
+    border-radius: 50px;
+    background: #a3d3db;
+    box-shadow:  20px 20px 60px #8bb3ba,
+                 -20px -20px 60px #bbf3fc;
+}
+.pay-btn{
+    width:40vw;
+    border: none;
+    background-color: #41b4c8;
+    padding: 20px;
+    /* margin: 30px; */
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    box-shadow:  0 0 3px 0 rgba(0,0,0,0.3);
+}
+
+.schedule h2,
+.mess-service h2{
+    color: #22338e;
+    text-shadow: 0px 0px 8px rgba(150, 150, 150, 0.77);
+}
+
+.pay-btn p{
+    font-family: sans-serif;
+    color: white;
+}
+.pay-btn:hover{
+    box-shadow: 0 0 0 5px  #1cad;
+    transition: all 200ms ease-out;
+ }
+
+.invoice {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5vw;
+    /* font-weight: 700; */
+    border-radius: 50px;
+    background: #a3d3db;
+    box-shadow:  20px 20px 60px #8bb3ba,
+                 -20px -20px 60px #bbf3fc;
+}
+
+#box{
+    /* width: 400px; */
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     padding: 70px;
+     border: 1px solid black;
+     text-align: center;
+     background: #a7daff;
+     border-radius: 20px;
+     z-index: 99999;
+     display: none;
+     font-family: "Montserrat";
+     transition: all 50000s ease-in-out;
+ }
+ #box button{
+     margin-top: 10px;
+     font-size: 1.3rem;
+     padding:10px 20px;
+     border-radius: 30px;
+     border: none;
+ }
+ #box div{
+     font-size: 2rem;
+ }
+@media (max-width: 1468px){
+    .details{
+        flex-direction: column;
+        width: 70vw;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .mess-service{
+        margin-top: 44px;
+        margin-bottom: 20px;
+    }
+
+}
